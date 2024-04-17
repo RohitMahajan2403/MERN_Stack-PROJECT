@@ -14,7 +14,7 @@ const Temp = () => {
                 const latitude = position.coords.latitude;
                 const longitude = position.coords.longitude;
                 
-                fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=3fd0a2f685e5e84a8ea1c165a61b5ae1`)
+                fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=*************************************`)
                     .then(response => response.json())
                     .then(data => {
                         const temperature = (data.main.temp - 273.15).toFixed(2); 
