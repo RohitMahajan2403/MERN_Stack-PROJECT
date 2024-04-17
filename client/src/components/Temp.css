@@ -1,0 +1,10 @@
+.temp-success{
+    text-align: right;
+    margin-right: 250px;
+    font-size: large;
+
+}
+
+.temp-fail{
+    text-align: center;
+}

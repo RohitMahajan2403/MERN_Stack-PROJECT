@@ -1,0 +1,46 @@
+.summary-title{
+    color : red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.summary-table {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    
+}
+
+.summary-table th, .summary-table td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+   
+}
+
+.summary-table th {
+    background-color: #f2f2f2;
+}
+.summary-table td {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .summary-table {
+        margin: 10px;
+    }
+    
+    .summary-table th, .summary-table td {
+        padding: 5px;
+        
+    }
+}
+
+
+  

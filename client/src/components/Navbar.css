@@ -1,0 +1,33 @@
+/* Navbar.css */
+.container-fluid {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+
+  }
+  
+  .header {
+    margin-bottom: 10px;
+  }
+  
+  .color-bar {
+    display: flex;
+  }
+  
+  .segment {
+    border-top: 25px solid transparent; /* Adjust height as needed */
+  }
+  
+  .color-yellow {
+    border-color: yellow;
+  }
+  
+  .color-green {
+    border-color: green;
+  }
+  
+  .color-red {
+    border-color: red;
+  }
+
